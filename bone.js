@@ -1,4 +1,4 @@
-var MongoManager = require('./lib/mongo');
+var Mongo = require('./lib/mongo');
 
 module.exports = function attachMongo(skinny, options) {
     "use strict";
